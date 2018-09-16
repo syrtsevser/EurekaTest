@@ -1,6 +1,6 @@
 # EurekaTest
 Тестовое приложение на NodeJS для проверки наличия локальной группы пользователей в OS Windows с применением C++ модуля.
-Использует: NodeJS, NodeJS Express, NodeJS NaN, Node-Gyp.
+Используемые модули: NodeJS, NodeJS Express, NodeJS NaN, Node-Gyp.
 
 ## Пререквизиты
 1. [Node.js](https://nodejs.org/en/)
@@ -20,3 +20,5 @@ npm install
 
 ## Использование
 Запустить node server.bat и ввести указанный адрес в браузере.
+
+В случае возникновения проблем при ручной установке, присутствует готовый вариант в .rar архиве.
