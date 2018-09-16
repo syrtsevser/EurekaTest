@@ -1,0 +1,22 @@
+{
+  "name": "eurekatask",
+  "version": "1.0.0",
+  "description": "Тестовое задание от eurekabpo.ru",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syrtsevser/EurekaTest.git"
+  },
+  "author": "syrtsevser",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/syrtsevser/EurekaTest/issues"
+  },
+  "homepage": "https://github.com/syrtsevser/EurekaTest#readme"
+}

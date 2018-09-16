@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+	<title>Тестовое задание</title>
+	<!--
+	<script>
+		$(document).ready(function(){
+			$("#myForm").submit(function(event){
+				event.preventDefault();
+				var gName = $("#gName").val();
+				$.ajax({
+					method: "post",
+					url: "/",
+					data: JSON.stringify({ gName: gName}),
+					contentType: "application/json",
+					success: function(data) {$("#result").val(data);}
+				})
+			});
+		});
+	</script>
+	!-->
+</head>
+<body>
+	<div class="d1">
+		<div class="d2">
+			<div class="infobox">
+				<form name="myForm" method="post">
+					<h1>Тестовое задание</h1>
+					<p>Имя группы: </p>
+					<input type="text" id="gName" name="gName">
+					<br/><br/>
+					<input id="btn" type="submit" value="Проверить">
+					<p id="result" name="result"></p>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
