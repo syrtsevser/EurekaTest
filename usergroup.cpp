@@ -8,7 +8,7 @@
 void gCheck(const Nan::FunctionCallbackInfo<v8::Value>& info) {
 	v8::String::Utf8Value param(info[0]->ToString());
 	std::string input = std::string(*param);
-	std::string result = u8"Такой группы нет.";
+	std::string result = u8"РўР°РєРѕР№ РіСЂСѓРїРїС‹ РЅРµС‚.";
 	
 	LOCALGROUP_INFO_0 *l_info;
 	DWORD read, total;
@@ -27,7 +27,7 @@ void gCheck(const Nan::FunctionCallbackInfo<v8::Value>& info) {
 	for (int i = 0; i<read; i++) {
 		std::string tmp = converter.to_bytes(l_info[i].lgrpi0_name);
 		if (tmp == input)
-			result = u8"Группа есть.";
+			result = u8"Р“СЂСѓРїРїР° РµСЃС‚СЊ.";
 	}
 	NetApiBufferFree(l_info);
 	info.GetReturnValue().Set(Nan::New(result).ToLocalChecked()); 
