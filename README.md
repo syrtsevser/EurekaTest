@@ -2,6 +2,8 @@
 Тестовое приложение на NodeJS для проверки наличия локальной группы пользователей в OS Windows с применением C++ модуля.
 Используемые модули: NodeJS, NodeJS Express, NodeJS NaN, Node-Gyp.
 
+Выполнено при трудоустройстве по заказу [EurekaBPO](https://www.eurekabpo.ru/) (hr туфта).
+
 ## Пререквизиты
 1. [Node.js](https://nodejs.org/en/)
 2. Windows build tools (node-gyp) - открыть командную строку от имени администратора и ввести:
